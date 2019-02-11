@@ -1,5 +1,5 @@
 {
-  "name": "hborras/twitter-php-ads-sdk",
+  "name": "bunkerdb/twitter-php-ads-sdk",
   "type": "library",
   "description": "A Twitter supported and maintained Ads API SDK for PHP",
   "keywords": [
@@ -18,11 +18,16 @@
       "name": "Hector Borras",
       "email": "hborrasaleixandre@gmail.com",
       "role": "Developer"
+    },
+    {
+      "name": "BunkerDB",
+      "email": "support@bunkerdb.com",
+      "role": "Owner"
     }
   ],
   "support": {
-    "source": "https://github.com/hborras/twitter-php-ads-sdk",
-    "issues": "https://github.com/hborras/twitter-php-ads-sdk/issues"
+    "source": "https://github.com/bunkerdb/twitter-php-ads-sdk",
+    "issues": "https://github.com/bunkerdb/twitter-php-ads-sdk/issues"
   },
   "require": {
     "php": ">=5.6.0",
