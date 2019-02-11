@@ -1,10 +1,10 @@
 <?php
 
-namespace Hborras\TwitterAdsSDK\TwitterAds\Creative;
+namespace BunkerDB\TwitterAdsSDK\TwitterAds\Creative;
 
-use Hborras\TwitterAdsSDK\TwitterAds\Analytics;
-use Hborras\TwitterAdsSDK\TwitterAds\Fields\AnalyticsFields;
-use Hborras\TwitterAdsSDK\TwitterAds\Fields\ScheduledPromotedTweetFields;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Analytics;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Fields\AnalyticsFields;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Fields\ScheduledPromotedTweetFields;
 
 class ScheduledTweet extends Analytics
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Hborras\TwitterAdsSDK\TwitterAds\Campaign;
+namespace BunkerDB\TwitterAdsSDK\TwitterAds\Campaign;
 
-use Hborras\TwitterAdsSDK\TwitterAds\Fields\AppListFields;
-use Hborras\TwitterAdsSDK\TwitterAds\Resource;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Fields\AppListFields;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Resource;
 
 class AppList extends Resource
 {

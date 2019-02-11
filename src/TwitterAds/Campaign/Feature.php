@@ -1,9 +1,9 @@
 <?php
 
-namespace Hborras\TwitterAdsSDK\TwitterAds\Campaign;
+namespace BunkerDB\TwitterAdsSDK\TwitterAds\Campaign;
 
-use Hborras\TwitterAdsSDK\TwitterAds;
-use Hborras\TwitterAdsSDK\TwitterAds\Cursor;
+use BunkerDB\TwitterAdsSDK\TwitterAds;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Cursor;
 
 class Feature
 {

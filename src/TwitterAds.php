@@ -1,23 +1,23 @@
 <?php
 
-namespace Hborras\TwitterAdsSDK;
+namespace BunkerDB\TwitterAdsSDK;
 
 use Exception;
-use Hborras\TwitterAdsSDK\TwitterAds\Account;
-use Hborras\TwitterAdsSDK\TwitterAds\Cursor;
-use Hborras\TwitterAdsSDK\TwitterAds\Errors\BadRequest;
-use Hborras\TwitterAdsSDK\TwitterAds\Errors\Forbidden;
-use Hborras\TwitterAdsSDK\TwitterAds\Errors\NotAuthorized;
-use Hborras\TwitterAdsSDK\TwitterAds\Errors\NotFound;
-use Hborras\TwitterAdsSDK\TwitterAds\Errors\RateLimit;
-use Hborras\TwitterAdsSDK\TwitterAds\Errors\ServerError;
-use Hborras\TwitterAdsSDK\TwitterAds\Errors\ServiceUnavailable;
-use Hborras\TwitterAdsSDK\Util\JsonDecoder;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Account;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Cursor;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Errors\BadRequest;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Errors\Forbidden;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Errors\NotAuthorized;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Errors\NotFound;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Errors\RateLimit;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Errors\ServerError;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Errors\ServiceUnavailable;
+use BunkerDB\TwitterAdsSDK\Util\JsonDecoder;
 
 /**
  * TwitterAds class for interacting with the Twitter API.
  *
- * @author Hector Borras <hborrasaleixandre@gmail.com>
+ * @author Hector Borras <BunkerDBaleixandre@gmail.com>
  */
 class TwitterAds extends Config
 {

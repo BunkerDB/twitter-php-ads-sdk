@@ -1,11 +1,11 @@
 <?php
 
-namespace Hborras\TwitterAdsSDK\TwitterAds\Campaign;
+namespace BunkerDB\TwitterAdsSDK\TwitterAds\Campaign;
 
-use Hborras\TwitterAdsSDK\TwitterAds\Cursor;
-use Hborras\TwitterAdsSDK\TwitterAds\Errors\MethodNotAllowedException;
-use Hborras\TwitterAdsSDK\TwitterAds\Fields\TargetingCriteriaFields;
-use Hborras\TwitterAdsSDK\TwitterAds\Resource;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Cursor;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Errors\MethodNotAllowedException;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Fields\TargetingCriteriaFields;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Resource;
 
 class TargetingCriteria extends Resource
 {

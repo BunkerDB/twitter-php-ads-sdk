@@ -1,12 +1,12 @@
 <?php
 
-namespace Hborras\TwitterAdsSDK\TwitterAds;
+namespace BunkerDB\TwitterAdsSDK\TwitterAds;
 
-use Hborras\TwitterAdsSDK\TwitterAds;
-use Hborras\TwitterAdsSDK\TwitterAds\Resource;
-use Hborras\TwitterAdsSDK\TwitterAds\Account;
-use Hborras\TwitterAdsSDK\Arrayable;
-use Hborras\TwitterAdsSDK\TwitterAds\Errors\BatchLimitExceeded;
+use BunkerDB\TwitterAdsSDK\TwitterAds;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Resource;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Account;
+use BunkerDB\TwitterAdsSDK\Arrayable;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Errors\BatchLimitExceeded;
 
 abstract class Batch extends Resource
 {

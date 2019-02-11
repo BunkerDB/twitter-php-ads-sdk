@@ -1,8 +1,8 @@
 <?php
 
-namespace Hborras\TwitterAdsSDK\Tests;
+namespace BunkerDB\TwitterAdsSDK\Tests;
 
-use Hborras\TwitterAdsSDK\Util\JsonDecoder;
+use BunkerDB\TwitterAdsSDK\Util\JsonDecoder;
 use PHPUnit\Framework\TestCase;
 
 class JsonDecoderTest extends TestCase

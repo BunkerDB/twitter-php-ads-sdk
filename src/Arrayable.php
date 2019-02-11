@@ -1,6 +1,6 @@
 <?php
 
-namespace Hborras\TwitterAdsSDK;
+namespace BunkerDB\TwitterAdsSDK;
 
 /**
  * An interface that defines whether or not an object can be transformed to an array

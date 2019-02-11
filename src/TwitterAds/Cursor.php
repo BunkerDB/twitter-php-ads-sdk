@@ -1,8 +1,8 @@
 <?php
 
-namespace Hborras\TwitterAdsSDK\TwitterAds;
+namespace BunkerDB\TwitterAdsSDK\TwitterAds;
 
-use Hborras\TwitterAdsSDK\TwitterAds;
+use BunkerDB\TwitterAdsSDK\TwitterAds;
 
 class Cursor implements \Iterator, \Countable, \arrayaccess
 {
@@ -38,7 +38,7 @@ class Cursor implements \Iterator, \Countable, \arrayaccess
     protected $useImplicitFetch;
 
     public function __construct(/* @noinspection PhpUnnecessaryFullyQualifiedNameInspection */
-        \Hborras\TwitterAdsSDK\TwitterAds\Resource $resource,
+        \BunkerDB\TwitterAdsSDK\TwitterAds\Resource $resource,
         TwitterAds $twitterAds,
         $request,
         $params
@@ -140,7 +140,7 @@ class Cursor implements \Iterator, \Countable, \arrayaccess
         }
         foreach ($request->data as $item) {
             if (method_exists($this->resource, 'fromResponse')) {
-                /** @var \Hborras\TwitterAdsSDK\TwitterAds\Resource $obj */
+                /** @var \BunkerDB\TwitterAdsSDK\TwitterAds\Resource $obj */
                 $obj = new $this->resource();
                 $this->collection[] = $obj->fromResponse($item);
             } else {

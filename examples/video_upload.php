@@ -1,8 +1,8 @@
 <?php
 
-use Hborras\TwitterAdsSDK\TwitterAds;
-use Hborras\TwitterAdsSDK\TwitterAds\Account;
-use Hborras\TwitterAdsSDK\TwitterAds\Creative\Video;
+use BunkerDB\TwitterAdsSDK\TwitterAds;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Account;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Creative\Video;
 
 require '../autoload.php';
 

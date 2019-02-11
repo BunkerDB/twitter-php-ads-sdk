@@ -1,12 +1,12 @@
 <?php
 
-namespace Hborras\TwitterAdsSDK\TwitterAds\Campaign;
+namespace BunkerDB\TwitterAdsSDK\TwitterAds\Campaign;
 
-use Hborras\TwitterAdsSDK\TwitterAds\Resource;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Resource;
 
 /**
  * Created by PhpStorm.
- * User: hborras
+ * User: BunkerDB
  * Date: 3/04/16
  * Time: 10:43.
  */

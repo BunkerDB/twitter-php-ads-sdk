@@ -1,9 +1,9 @@
 <?php
 
-namespace Hborras\TwitterAdsSDK\TwitterAds\Creative;
+namespace BunkerDB\TwitterAdsSDK\TwitterAds\Creative;
 
-use Hborras\TwitterAdsSDK\TwitterAds\Fields\VideoAppDownloadCardFields;
-use Hborras\TwitterAdsSDK\TwitterAds\Resource;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Fields\VideoAppDownloadCardFields;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Resource;
 
 class VideoAppDownloadCard extends Resource
 {

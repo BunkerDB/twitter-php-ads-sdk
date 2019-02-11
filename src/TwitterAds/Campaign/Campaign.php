@@ -1,10 +1,10 @@
 <?php
 
-namespace Hborras\TwitterAdsSDK\TwitterAds\Campaign;
+namespace BunkerDB\TwitterAdsSDK\TwitterAds\Campaign;
 
-use Hborras\TwitterAdsSDK\TwitterAds\Analytics;
-use Hborras\TwitterAdsSDK\TwitterAds\Fields\AnalyticsFields;
-use Hborras\TwitterAdsSDK\TwitterAds\Fields\CampaignFields;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Analytics;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Fields\AnalyticsFields;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Fields\CampaignFields;
 
 class Campaign extends Analytics
 {
@@ -48,7 +48,7 @@ class Campaign extends Analytics
 
     /**
      * @param array $params
-     * @return \Hborras\TwitterAdsSDK\TwitterAds\Cursor|Resource
+     * @return \BunkerDB\TwitterAdsSDK\TwitterAds\Cursor|Resource
      */
     public function getLineItems($params = [])
     {

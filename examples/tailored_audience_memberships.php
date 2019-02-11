@@ -1,8 +1,8 @@
 <?php
 
-use Hborras\TwitterAdsSDK\TwitterAds;
-use Hborras\TwitterAdsSDK\TwitterAds\TailoredAudience\TailoredAudienceMemberships;
-use Hborras\TwitterAdsSDK\TwitterAds\TailoredAudience\TailoredAudienceMember;
+use BunkerDB\TwitterAdsSDK\TwitterAds;
+use BunkerDB\TwitterAdsSDK\TwitterAds\TailoredAudience\TailoredAudienceMemberships;
+use BunkerDB\TwitterAdsSDK\TwitterAds\TailoredAudience\TailoredAudienceMember;
 
 ;
 

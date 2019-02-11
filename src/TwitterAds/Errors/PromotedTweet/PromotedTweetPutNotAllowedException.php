@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Hborras\TwitterAdsSDK\TwitterAds\Errors\PromotedTweet;
+namespace BunkerDB\TwitterAdsSDK\TwitterAds\Errors\PromotedTweet;
 
 use Exception;
 

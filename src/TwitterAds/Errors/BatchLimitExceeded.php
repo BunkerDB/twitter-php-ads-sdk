@@ -1,6 +1,6 @@
 <?php
 
-namespace Hborras\TwitterAdsSDK\TwitterAds\Errors;
+namespace BunkerDB\TwitterAdsSDK\TwitterAds\Errors;
 
 final class BatchLimitExceeded extends \DomainException
 {

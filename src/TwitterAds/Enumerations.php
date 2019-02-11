@@ -1,6 +1,6 @@
 <?php
 
-namespace Hborras\TwitterAdsSDK\TwitterAds;
+namespace BunkerDB\TwitterAdsSDK\TwitterAds;
 
 class Enumerations
 {

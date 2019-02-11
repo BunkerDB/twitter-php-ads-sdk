@@ -1,7 +1,7 @@
 <?php
 
-use Hborras\TwitterAdsSDK\TwitterAds;
-use Hborras\TwitterAdsSDK\TwitterAds\TailoredAudience\TailoredAudience;
+use BunkerDB\TwitterAdsSDK\TwitterAds;
+use BunkerDB\TwitterAdsSDK\TwitterAds\TailoredAudience\TailoredAudience;
 use PHPUnit\Framework\TestCase;
 
 class TailoredAudienceTest extends TestCase
@@ -11,7 +11,7 @@ class TailoredAudienceTest extends TestCase
     private $account;
 
     /**
-     * @expectedException Hborras\TwitterAdsSDK\TwitterAds\TailoredAudience\Exception\InvalidType
+     * @expectedException BunkerDB\TwitterAdsSDK\TwitterAds\TailoredAudience\Exception\InvalidType
      */
     public function testTailoredAudiencesWillThrowAnExceptionWithAnInvalidType()
     {

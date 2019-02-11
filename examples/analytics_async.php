@@ -1,12 +1,12 @@
 <?php
 
-use Hborras\TwitterAdsSDK\TwitterAds;
-use Hborras\TwitterAdsSDK\TwitterAds\Account;
-use Hborras\TwitterAdsSDK\TwitterAds\Analytics;
-use Hborras\TwitterAdsSDK\TwitterAds\Campaign\Campaign;
-use Hborras\TwitterAdsSDK\TwitterAds\Campaign\LineItem;
-use Hborras\TwitterAdsSDK\TwitterAds\Enumerations;
-use Hborras\TwitterAdsSDK\TwitterAds\Fields\AnalyticsFields;
+use BunkerDB\TwitterAdsSDK\TwitterAds;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Account;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Analytics;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Campaign\Campaign;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Campaign\LineItem;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Enumerations;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Fields\AnalyticsFields;
 
 require '../autoload.php';
 
@@ -102,7 +102,7 @@ foreach ($campaignsData as $campaign) {
                 }
             }
     
-        } catch (\Hborras\TwitterAdsSDK\TwitterAdsException $e) {
+        } catch (\BunkerDB\TwitterAdsSDK\TwitterAdsException $e) {
             print_r($e->getErrors());
         }
 

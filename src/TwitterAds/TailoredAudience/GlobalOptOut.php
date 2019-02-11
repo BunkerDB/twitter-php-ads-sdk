@@ -1,11 +1,11 @@
 <?php
 
-namespace Hborras\TwitterAdsSDK\TwitterAds\TailoredAudience;
+namespace BunkerDB\TwitterAdsSDK\TwitterAds\TailoredAudience;
 
-use Hborras\TwitterAdsSDK\TwitterAds;
-use Hborras\TwitterAdsSDK\TwitterAds\Resource;
-use Hborras\TwitterAdsSDK\TwitterAds\TailoredAudience\Exception\InvalidType;
-use Hborras\TwitterAdsSDK\Arrayable;
+use BunkerDB\TwitterAdsSDK\TwitterAds;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Resource;
+use BunkerDB\TwitterAdsSDK\TwitterAds\TailoredAudience\Exception\InvalidType;
+use BunkerDB\TwitterAdsSDK\Arrayable;
 
 /**
  * Updates a list of user's optout status

@@ -1,12 +1,12 @@
 <?php
-use Hborras\TwitterAdsSDK\TwitterAds;
-use Hborras\TwitterAdsSDK\TwitterAds\Account;
-use Hborras\TwitterAdsSDK\TwitterAds\Campaign\Campaign;
-use Hborras\TwitterAdsSDK\TwitterAds\Campaign\FundingInstrument;
-use Hborras\TwitterAdsSDK\TwitterAds\Campaign\LineItem;
-use Hborras\TwitterAdsSDK\TwitterAds\Campaign\PromotableUser;
-use Hborras\TwitterAdsSDK\TwitterAds\Campaign\TargetingCriteria;
-use Hborras\TwitterAdsSDK\TwitterAds\Cursor;
+use BunkerDB\TwitterAdsSDK\TwitterAds;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Account;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Campaign\Campaign;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Campaign\FundingInstrument;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Campaign\LineItem;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Campaign\PromotableUser;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Campaign\TargetingCriteria;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Cursor;
 use PHPUnit\Framework\TestCase;
 
 class AccountTest extends TestCase

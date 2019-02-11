@@ -1,9 +1,9 @@
 <?php
 
-use Hborras\TwitterAdsSDK\TwitterAds;
-use Hborras\TwitterAdsSDK\TwitterAds\Account;
-use Hborras\TwitterAdsSDK\TwitterAds\TailoredAudience\TailoredAudience;
-use Hborras\TwitterAdsSDK\TwitterAds\TailoredAudience\GlobalOptOut;
+use BunkerDB\TwitterAdsSDK\TwitterAds;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Account;
+use BunkerDB\TwitterAdsSDK\TwitterAds\TailoredAudience\TailoredAudience;
+use BunkerDB\TwitterAdsSDK\TwitterAds\TailoredAudience\GlobalOptOut;
 use PHPUnit\Framework\TestCase;
 
 class GlobalOptOutTest extends TestCase
@@ -13,7 +13,7 @@ class GlobalOptOutTest extends TestCase
     private $account;
 
     /**
-     * @expectedException Hborras\TwitterAdsSDK\TwitterAds\TailoredAudience\Exception\InvalidType
+     * @expectedException BunkerDB\TwitterAdsSDK\TwitterAds\TailoredAudience\Exception\InvalidType
      */
     public function testTailoredAudiencesWillThrowAnExceptionWithAnInvalidType()
     {

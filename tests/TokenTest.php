@@ -1,8 +1,8 @@
 <?php
 
-namespace Hborras\TwitterAdsSDK\Tests;
+namespace BunkerDB\TwitterAdsSDK\Tests;
 
-use Hborras\TwitterAdsSDK\Token;
+use BunkerDB\TwitterAdsSDK\Token;
 use PHPUnit\Framework\TestCase;
 
 class TokenTest extends TestCase

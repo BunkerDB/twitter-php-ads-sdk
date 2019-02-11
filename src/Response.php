@@ -1,6 +1,6 @@
 <?php
 
-namespace Hborras\TwitterAdsSDK;
+namespace BunkerDB\TwitterAdsSDK;
 
 /**
  * The result of the most recent API request.

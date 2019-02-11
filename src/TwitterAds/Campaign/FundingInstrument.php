@@ -1,9 +1,9 @@
 <?php
 
-namespace Hborras\TwitterAdsSDK\TwitterAds\Campaign;
+namespace BunkerDB\TwitterAdsSDK\TwitterAds\Campaign;
 
-use Hborras\TwitterAdsSDK\TwitterAds\Analytics;
-use Hborras\TwitterAdsSDK\TwitterAds\Fields\AnalyticsFields;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Analytics;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Fields\AnalyticsFields;
 
 
 class FundingInstrument extends Analytics

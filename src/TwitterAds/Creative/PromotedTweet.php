@@ -1,10 +1,10 @@
 <?php
 
-namespace Hborras\TwitterAdsSDK\TwitterAds\Creative;
+namespace BunkerDB\TwitterAdsSDK\TwitterAds\Creative;
 
-use Hborras\TwitterAdsSDK\TwitterAds\Analytics;
-use Hborras\TwitterAdsSDK\TwitterAds\Fields\AnalyticsFields;
-use Hborras\TwitterAdsSDK\TwitterAds\Fields\PromotedTweetFields;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Analytics;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Fields\AnalyticsFields;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Fields\PromotedTweetFields;
 
 class PromotedTweet extends Analytics
 {
@@ -36,7 +36,7 @@ class PromotedTweet extends Analytics
      * @param array $params
      * @param bool $async
      * @return mixed
-     * @throws \Hborras\TwitterAdsSDK\TwitterAds\Errors\BadRequest
+     * @throws \BunkerDB\TwitterAdsSDK\TwitterAds\Errors\BadRequest
      */
     public function stats($metricGroups, $params = [], $async = false)
     {

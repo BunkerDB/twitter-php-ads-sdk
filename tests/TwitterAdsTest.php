@@ -2,11 +2,11 @@
 /**
  * WARNING: Running these tests will post and delete through the actual Twitter account.
  */
-namespace Hborras\TwitterAdsSDK\Test;
+namespace BunkerDB\TwitterAdsSDK\Test;
 
-use Hborras\TwitterAdsSDK\Response;
-use Hborras\TwitterAdsSDK\TwitterAds;
-use Hborras\TwitterAdsSDK\TwitterAds\Account;
+use BunkerDB\TwitterAdsSDK\Response;
+use BunkerDB\TwitterAdsSDK\TwitterAds;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Account;
 use PHPUnit\Framework\TestCase;
 
 class TwitterAdsTest extends TestCase
@@ -56,7 +56,7 @@ class TwitterAdsTest extends TestCase
     }
 
     /**
-     * @expectedException \Hborras\TwitterAdsSDK\TwitterAdsException
+     * @expectedException \BunkerDB\TwitterAdsSDK\TwitterAdsException
      * @expectedExceptionMessage Could not authenticate you
      */
     public function testOauthRequestTokenException()
@@ -68,11 +68,11 @@ class TwitterAdsTest extends TestCase
     }
 
     /**
-     * @expectedException \Hborras\TwitterAdsSDK\TwitterAdsException
+     * @expectedException \BunkerDB\TwitterAdsSDK\TwitterAdsException
      * @expectedExceptionMessage Error processing your OAuth request: Invalid oauth_verifier parameter
      * @depends testOauthRequestToken
      * @param array $requestToken
-     * @throws \Hborras\TwitterAdsSDK\TwitterAdsException
+     * @throws \BunkerDB\TwitterAdsSDK\TwitterAdsException
      */
     public function testOauthAccessTokenTokenException(array $requestToken)
     {

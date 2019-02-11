@@ -1,11 +1,11 @@
 <?php
 
-use Hborras\TwitterAdsSDK\TwitterAds;
-use Hborras\TwitterAdsSDK\TwitterAds\Account;
-use Hborras\TwitterAdsSDK\TwitterAds\Campaign\Campaign;
-use Hborras\TwitterAdsSDK\TwitterAds\Campaign\LineItem;
-use Hborras\TwitterAdsSDK\TwitterAds\Campaign\TargetingCriteria;
-use Hborras\TwitterAdsSDK\TwitterAds\Enumerations;
+use BunkerDB\TwitterAdsSDK\TwitterAds;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Account;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Campaign\Campaign;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Campaign\LineItem;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Campaign\TargetingCriteria;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Enumerations;
 
 require '../autoload.php';
 

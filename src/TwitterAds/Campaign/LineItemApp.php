@@ -1,9 +1,9 @@
 <?php
 
-namespace Hborras\TwitterAdsSDK\TwitterAds\Campaign;
+namespace BunkerDB\TwitterAdsSDK\TwitterAds\Campaign;
 
-use Hborras\TwitterAdsSDK\TwitterAds\Fields\LineItemAppFields;
-use Hborras\TwitterAdsSDK\TwitterAds\Resource;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Fields\LineItemAppFields;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Resource;
 
 class LineItemApp extends Resource
 {

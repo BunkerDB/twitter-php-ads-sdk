@@ -1,6 +1,6 @@
 <?php
 
-namespace Hborras\TwitterAdsSDK\Util;
+namespace BunkerDB\TwitterAdsSDK\Util;
 
 /**
  * @author louis <louis@systemli.org>

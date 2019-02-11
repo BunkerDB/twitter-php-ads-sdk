@@ -1,8 +1,8 @@
 <?php
 
-namespace Hborras\TwitterAdsSDK\Tests;
+namespace BunkerDB\TwitterAdsSDK\Tests;
 
-use Hborras\TwitterAdsSDK\SignatureMethod;
+use BunkerDB\TwitterAdsSDK\SignatureMethod;
 use PHPUnit\Framework\TestCase;
 
 abstract class AbstractSignatureMethodTest extends TestCase
@@ -31,21 +31,21 @@ abstract class AbstractSignatureMethodTest extends TestCase
 
     protected function getRequest()
     {
-        return $this->getMockBuilder('Hborras\TwitterAdsSDK\Request')
+        return $this->getMockBuilder('BunkerDB\TwitterAdsSDK\Request')
             ->disableOriginalConstructor()
             ->getMock();
     }
 
     protected function getConsumer($key = null, $secret = null, $callbackUrl = null)
     {
-        return $this->getMockBuilder('Hborras\TwitterAdsSDK\Consumer')
+        return $this->getMockBuilder('BunkerDB\TwitterAdsSDK\Consumer')
             ->setConstructorArgs(array($key, $secret, $callbackUrl))
             ->getMock();
     }
 
     protected function getToken($key = null, $secret = null)
     {
-        return $this->getMockBuilder('Hborras\TwitterAdsSDK\Token')
+        return $this->getMockBuilder('BunkerDB\TwitterAdsSDK\Token')
             ->setConstructorArgs(array($key, $secret))
             ->getMock();
     }

@@ -1,8 +1,8 @@
 <?php
 
-namespace Hborras\TwitterAdsSDK\Tests;
+namespace BunkerDB\TwitterAdsSDK\Tests;
 
-use Hborras\TwitterAdsSDK\Consumer;
+use BunkerDB\TwitterAdsSDK\Consumer;
 use PHPUnit\Framework\TestCase;
 
 class ConsumerTest extends TestCase

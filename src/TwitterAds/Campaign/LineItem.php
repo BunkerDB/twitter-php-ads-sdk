@@ -1,14 +1,14 @@
 <?php
 
-namespace Hborras\TwitterAdsSDK\TwitterAds\Campaign;
+namespace BunkerDB\TwitterAdsSDK\TwitterAds\Campaign;
 
-use Hborras\TwitterAdsSDK\TwitterAds\Analytics;
-use Hborras\TwitterAdsSDK\TwitterAds\Analytics\Job;
-use Hborras\TwitterAdsSDK\TwitterAds\Creative\PromotedTweet;
-use Hborras\TwitterAdsSDK\TwitterAds\Cursor;
-use Hborras\TwitterAdsSDK\TwitterAds\Fields\AnalyticsFields;
-use Hborras\TwitterAdsSDK\TwitterAds\Fields\LineItemFields;
-use Hborras\TwitterAdsSDK\TwitterAdsException;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Analytics;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Analytics\Job;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Creative\PromotedTweet;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Cursor;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Fields\AnalyticsFields;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Fields\LineItemFields;
+use BunkerDB\TwitterAdsSDK\TwitterAdsException;
 
 class LineItem extends Analytics
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Hborras\TwitterAdsSDK\TwitterAds\TailoredAudience;
+namespace BunkerDB\TwitterAdsSDK\TwitterAds\TailoredAudience;
 
-use Hborras\TwitterAdsSDK\TwitterAds;
-use Hborras\TwitterAdsSDK\TwitterAds\Cursor;
-use Hborras\TwitterAdsSDK\TwitterAds\Resource;
-use Hborras\TwitterAdsSDK\TwitterAds\TailoredAudience\Exception\InvalidOperation;
+use BunkerDB\TwitterAdsSDK\TwitterAds;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Cursor;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Resource;
+use BunkerDB\TwitterAdsSDK\TwitterAds\TailoredAudience\Exception\InvalidOperation;
 
 /**
  * Represents a Tailored Audience Change object

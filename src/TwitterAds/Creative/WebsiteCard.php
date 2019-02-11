@@ -1,9 +1,9 @@
 <?php
 
-namespace Hborras\TwitterAdsSDK\TwitterAds\Creative;
+namespace BunkerDB\TwitterAdsSDK\TwitterAds\Creative;
 
-use Hborras\TwitterAdsSDK\TwitterAds\Fields\WebsiteCardFields;
-use Hborras\TwitterAdsSDK\TwitterAds\Resource;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Fields\WebsiteCardFields;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Resource;
 
 class WebsiteCard extends Resource
 {

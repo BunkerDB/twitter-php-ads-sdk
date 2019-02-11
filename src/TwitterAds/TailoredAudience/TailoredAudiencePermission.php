@@ -1,10 +1,10 @@
 <?php
 
-namespace Hborras\TwitterAdsSDK\TwitterAds\TailoredAudience;
+namespace BunkerDB\TwitterAdsSDK\TwitterAds\TailoredAudience;
 
-use Hborras\TwitterAdsSDK\TwitterAds;
-use Hborras\TwitterAdsSDK\TwitterAds\Cursor;
-use Hborras\TwitterAdsSDK\TwitterAds\Resource;
+use BunkerDB\TwitterAdsSDK\TwitterAds;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Cursor;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Resource;
 
 final class TailoredAudiencePermission extends Resource
 {

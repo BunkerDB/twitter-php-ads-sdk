@@ -1,15 +1,15 @@
 <?php
 
-use Hborras\TwitterAdsSDK\TwitterAds;
-use Hborras\TwitterAdsSDK\TwitterAds\TailoredAudience\TailoredAudienceMemberships;
-use Hborras\TwitterAdsSDK\TwitterAds\TailoredAudience\TailoredAudienceMember;
-use Hborras\TwitterAdsSDK\TwitterAds\Account;
+use BunkerDB\TwitterAdsSDK\TwitterAds;
+use BunkerDB\TwitterAdsSDK\TwitterAds\TailoredAudience\TailoredAudienceMemberships;
+use BunkerDB\TwitterAdsSDK\TwitterAds\TailoredAudience\TailoredAudienceMember;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Account;
 use PHPUnit\Framework\TestCase;
 
 class TailoredAudienceMembershipsTest extends TestCase
 {
     /**
-     * @expectedException Hborras\TwitterAdsSDK\TwitterAds\Errors\BatchLimitExceeded
+     * @expectedException BunkerDB\TwitterAdsSDK\TwitterAds\Errors\BatchLimitExceeded
      */
     public function testBatchWillThrowExceptionWhenTooManyMembersAreAdded()
     {

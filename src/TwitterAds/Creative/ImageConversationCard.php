@@ -1,9 +1,9 @@
 <?php
 
-namespace Hborras\TwitterAdsSDK\TwitterAds\Creative;
+namespace BunkerDB\TwitterAdsSDK\TwitterAds\Creative;
 
-use Hborras\TwitterAdsSDK\TwitterAds\Fields\ImageConversationCardFields;
-use Hborras\TwitterAdsSDK\TwitterAds\Resource;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Fields\ImageConversationCardFields;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Resource;
 
 class ImageConversationCard extends Resource
 {

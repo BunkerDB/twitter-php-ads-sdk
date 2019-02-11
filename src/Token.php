@@ -3,7 +3,7 @@
  * The MIT License
  * Copyright (c) 2007 Andy Smith.
  */
-namespace Hborras\TwitterAdsSDK;
+namespace BunkerDB\TwitterAdsSDK;
 
 class Token
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Hborras\TwitterAdsSDK\Tests;
+namespace BunkerDB\TwitterAdsSDK\Tests;
 
-use Hborras\TwitterAdsSDK\HmacSha1;
+use BunkerDB\TwitterAdsSDK\HmacSha1;
 
 class HmacSha1Test extends AbstractSignatureMethodTest
 {

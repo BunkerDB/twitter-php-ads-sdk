@@ -1,19 +1,19 @@
 <?php
 
-namespace Hborras\TwitterAdsSDK\TwitterAds;
+namespace BunkerDB\TwitterAdsSDK\TwitterAds;
 
-use Hborras\TwitterAdsSDK\TwitterAds;
-use Hborras\TwitterAdsSDK\TwitterAds\Analytics\Job;
-use Hborras\TwitterAdsSDK\TwitterAds\Campaign\AppList;
-use Hborras\TwitterAdsSDK\TwitterAds\Campaign\Campaign;
-use Hborras\TwitterAdsSDK\TwitterAds\Campaign\FundingInstrument;
-use Hborras\TwitterAdsSDK\TwitterAds\Campaign\LineItem;
-use Hborras\TwitterAdsSDK\TwitterAds\Campaign\PromotableUser;
-use Hborras\TwitterAdsSDK\TwitterAds\Creative\Video;
-use Hborras\TwitterAdsSDK\TwitterAds\Fields\AnalyticsFields;
-use Hborras\TwitterAdsSDK\TwitterAds\TailoredAudience\TailoredAudience;
-use Hborras\TwitterAdsSDK\TwitterAdsException;
-use Hborras\TwitterAdsSDK\TwitterAds\Fields\AccountFields;
+use BunkerDB\TwitterAdsSDK\TwitterAds;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Analytics\Job;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Campaign\AppList;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Campaign\Campaign;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Campaign\FundingInstrument;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Campaign\LineItem;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Campaign\PromotableUser;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Creative\Video;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Fields\AnalyticsFields;
+use BunkerDB\TwitterAdsSDK\TwitterAds\TailoredAudience\TailoredAudience;
+use BunkerDB\TwitterAdsSDK\TwitterAdsException;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Fields\AccountFields;
 
 class Account extends Analytics
 {

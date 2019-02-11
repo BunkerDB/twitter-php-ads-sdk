@@ -1,11 +1,11 @@
 <?php
 
-namespace Hborras\TwitterAdsSDK\TwitterAds\TailoredAudience;
+namespace BunkerDB\TwitterAdsSDK\TwitterAds\TailoredAudience;
 
-use Hborras\TwitterAdsSDK\TONUpload;
-use Hborras\TwitterAdsSDK\TwitterAds;
-use Hborras\TwitterAdsSDK\TwitterAds\Resource;
-use Hborras\TwitterAdsSDK\TwitterAds\TailoredAudience\Exception\InvalidType;
+use BunkerDB\TwitterAdsSDK\TONUpload;
+use BunkerDB\TwitterAdsSDK\TwitterAds;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Resource;
+use BunkerDB\TwitterAdsSDK\TwitterAds\TailoredAudience\Exception\InvalidType;
 
 final class TailoredAudience extends Resource
 {

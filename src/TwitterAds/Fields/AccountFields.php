@@ -1,6 +1,6 @@
 <?php
 
-namespace Hborras\TwitterAdsSDK\TwitterAds\Fields;
+namespace BunkerDB\TwitterAdsSDK\TwitterAds\Fields;
 
 class AccountFields extends Fields
 {

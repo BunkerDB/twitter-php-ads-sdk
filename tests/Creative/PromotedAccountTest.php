@@ -1,10 +1,10 @@
 <?php
-use Hborras\TwitterAdsSDK\TwitterAds;
-use Hborras\TwitterAdsSDK\TwitterAds\Account;
+use BunkerDB\TwitterAdsSDK\TwitterAds;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Account;
 
 /**
  * Created by PhpStorm.
- * User: hborras
+ * User: BunkerDB
  * Date: 17/04/16
  * Time: 22:38
  */

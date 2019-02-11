@@ -1,9 +1,9 @@
 <?php
 
-namespace Hborras\TwitterAdsSDK\TwitterAds\Errors;
+namespace BunkerDB\TwitterAdsSDK\TwitterAds\Errors;
 
 use Exception;
-use Hborras\TwitterAdsSDK\TwitterAdsException;
+use BunkerDB\TwitterAdsSDK\TwitterAdsException;
 
 class RateLimit extends TwitterAdsException
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Hborras\TwitterAdsSDK\TwitterAds;
+namespace BunkerDB\TwitterAdsSDK\TwitterAds;
 
-use Hborras\TwitterAdsSDK\TwitterAds\Analytics\Job;
-use Hborras\TwitterAdsSDK\TwitterAds\Errors\BadRequest;
-use Hborras\TwitterAdsSDK\TwitterAds\Fields\AnalyticsFields;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Analytics\Job;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Errors\BadRequest;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Fields\AnalyticsFields;
 
 class Analytics extends Resource
 {

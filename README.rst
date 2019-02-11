@@ -7,7 +7,7 @@ Installation
 .. code:: bash
 
     # installing the latest signed release
-    composer require hborras/twitter-php-ads-sdk
+    composer require BunkerDB/twitter-php-ads-sdk
 
 Breaking Changes
 ''''''''''''''''
@@ -117,7 +117,7 @@ by following the examples below.
 .. code:: bash
 
     # clone the repository
-    git clone git@github.com:hborras/twitter-php-ads-sdk.git
+    git clone git@github.com:BunkerDB/twitter-php-ads-sdk.git
     cd twitter-php-ads-sdk
 
     # install dependencies
@@ -148,7 +148,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-.. |Build Status| image:: https://travis-ci.org/hborras/twitter-php-ads-sdk.svg?branch=master
-:target: https://travis-ci.org/hborras/twitter-php-ads-sdk
-.. |Scrutinizer Status| image:: https://scrutinizer-ci.com/g/hborras/twitter-php-ads-sdk/badges/quality-score.png?b=master
-:target: https://scrutinizer-ci.com/g/hborras/twitter-php-ads-sdk
+.. |Build Status| image:: https://travis-ci.org/BunkerDB/twitter-php-ads-sdk.svg?branch=master
+:target: https://travis-ci.org/BunkerDB/twitter-php-ads-sdk
+.. |Scrutinizer Status| image:: https://scrutinizer-ci.com/g/BunkerDB/twitter-php-ads-sdk/badges/quality-score.png?b=master
+:target: https://scrutinizer-ci.com/g/BunkerDB/twitter-php-ads-sdk

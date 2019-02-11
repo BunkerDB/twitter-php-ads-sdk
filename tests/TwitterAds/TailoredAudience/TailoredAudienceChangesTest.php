@@ -1,10 +1,10 @@
 <?php
 
-use Hborras\TwitterAdsSDK\TwitterAds;
-use Hborras\TwitterAdsSDK\TwitterAds\TailoredAudience\TailoredAudience;
-use Hborras\TwitterAdsSDK\TwitterAds\TailoredAudience\TailoredAudienceChanges;
-use Hborras\TwitterAdsSDK\TwitterAds\Campaign\Campaign;
-use Hborras\TwitterAdsSDK\TwitterAds\Cursor;
+use BunkerDB\TwitterAdsSDK\TwitterAds;
+use BunkerDB\TwitterAdsSDK\TwitterAds\TailoredAudience\TailoredAudience;
+use BunkerDB\TwitterAdsSDK\TwitterAds\TailoredAudience\TailoredAudienceChanges;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Campaign\Campaign;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Cursor;
 use PHPUnit\Framework\TestCase;
 
 class TailoredAudienceChangesTest extends TestCase
@@ -13,7 +13,7 @@ class TailoredAudienceChangesTest extends TestCase
     protected $twitter;
 
     /**
-     * @expectedException Hborras\TwitterAdsSDK\TwitterAds\TailoredAudience\Exception\InvalidOperation
+     * @expectedException BunkerDB\TwitterAdsSDK\TwitterAds\TailoredAudience\Exception\InvalidOperation
      */
     public function testTailoredAudienceChangesWillThrowAnExceptionWithAnInvalidOperation()
     {

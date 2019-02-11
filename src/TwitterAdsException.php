@@ -1,11 +1,11 @@
 <?php
 
-namespace Hborras\TwitterAdsSDK;
+namespace BunkerDB\TwitterAdsSDK;
 
 use Exception;
 
 /**
- * @author Hector Borras <hborrasaleixandre@gmail.com>
+ * @author Hector Borras <BunkerDBaleixandre@gmail.com>
  */
 class TwitterAdsException extends \Exception
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Hborras\TwitterAdsSDK;
+namespace BunkerDB\TwitterAdsSDK;
 
 /**
  * Handle setting and storing config for TwitterAds.

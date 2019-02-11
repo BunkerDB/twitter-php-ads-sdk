@@ -1,12 +1,12 @@
 <?php
 
-namespace Hborras\TwitterAdsSDK\TwitterAds;
+namespace BunkerDB\TwitterAdsSDK\TwitterAds;
 
-use Hborras\TwitterAdsSDK\DateTime\DateTimeFormatter;
-use Hborras\TwitterAdsSDK\TwitterAds;
-use Hborras\TwitterAdsSDK\TwitterAds\Errors\ServerError;
-use Hborras\TwitterAdsSDK\TwitterAdsException;
-use Hborras\TwitterAdsSDK\Arrayable;
+use BunkerDB\TwitterAdsSDK\DateTime\DateTimeFormatter;
+use BunkerDB\TwitterAdsSDK\TwitterAds;
+use BunkerDB\TwitterAdsSDK\TwitterAds\Errors\ServerError;
+use BunkerDB\TwitterAdsSDK\TwitterAdsException;
+use BunkerDB\TwitterAdsSDK\Arrayable;
 
 
 abstract class Resource implements Arrayable

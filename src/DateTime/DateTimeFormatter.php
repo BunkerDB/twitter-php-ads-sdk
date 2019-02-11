@@ -1,6 +1,6 @@
 <?php
 
-namespace Hborras\TwitterAdsSDK\DateTime;
+namespace BunkerDB\TwitterAdsSDK\DateTime;
 
 use DateTime;
 use DateTimeImmutable;
