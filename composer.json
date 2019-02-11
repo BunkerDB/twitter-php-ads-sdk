@@ -15,11 +15,6 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Hector Borras",
-      "email": "hborrasaleixandre@gmail.com",
-      "role": "Developer"
-    },
-    {
       "name": "BunkerDB",
       "email": "support@bunkerdb.com",
       "role": "Owner"
@@ -38,7 +33,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Hborras\\TwitterAdsSDK\\": "src"
+      "BunkerDB\\TwitterAdsSDK\\": "src"
     }
   }
 }
